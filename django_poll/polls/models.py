@@ -19,4 +19,4 @@ class Answer(models.Model):
 
     #to return the text not an object of answer 
     def __str__(self):
-        return self.question_text
+        return self.answer_text
